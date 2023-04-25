@@ -1,0 +1,1 @@
+This is my first assignment that i have to finish by myself without looking at the answers. I am going to make a landing page.
