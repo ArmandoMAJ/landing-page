@@ -31,6 +31,7 @@
 .awesome{
     display: flex;
     margin-top: 50px;
+    justify-content: center;
 }
 
 img{
@@ -49,6 +50,12 @@ img{
 .awesome-links{
     width: 400px;
     margin-left: 100px;
+    flex: 1;
+    margin-left: 300px;
+}
+
+.awesome-rechts{
+    flex: 1;
 }
 
 .subtext{
@@ -66,23 +73,115 @@ img{
 }
 
 .midden{
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    height: 300px;
+
 }
 
 .random{
     font-weight: bold;
     font-size: 20px;
-
+    text-align: center;
+    margin-top: 40px;
 
 }
 
 .box{
     border-style: solid;
     border-color: blue;
-    height: 50px;
-    width: 50px;
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+}
 
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.omhulsel{
+    width: 140px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.subtext{
+    color: grey;
+}
+
+.onder{
+    height: 400px;
+    background-color: grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    width: 620px;
+}
+
+.thor{
+    margin-left: 500px;
+}
+
+.blauwe-footer{
+    background-color: blue;
+    padding: 40px 100px;
+    display: flex;
+}
+
+.helemaal-onder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: white;
+}
+
+.onder-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.call{
+    font-weight: bold;
+}
+
+.click{
+    font-size: 15px;
+}
+
+.sign-up{
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    margin-left: 50px;
+}
+
+.footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copyright{
+    color: white;
+
+}
+
+.annete{
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+    margin-left: 0px;
+    border-radius: 20px;
 }
